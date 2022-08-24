@@ -117,3 +117,129 @@ contiguous with Potsdam, Brandenburg's capital."""
 
 z = text3.replace('capital','capital of germany')
 print(z)
+
+
+
+#  String basics 2
+
+# Task 1 
+
+#Create a variable called ```text``` to store the data:
+#  ```Berlin is a world city of culture, politics, media and science.``` . 
+# Your task is to print the length of the ```text``` variable on the screen. 
+
+# * Your result should look like this:
+
+# ```bash
+# 63
+# ```
+
+text4 = "Berlin is a world city of culture, politics, media and science."
+
+c = len(text4)
+print(c)
+
+# Task 2
+
+# Reuse the variable called ```text```  and print
+#  the first and the last characters on the screen. 
+
+# * Your result should look like this:
+
+# ```bash
+# B .
+# ```
+
+e = (text4[:0]) + (text4[61:])
+print(e)
+
+# Task 3
+
+#Reuse the variable called ```text```  and
+#  print the first three characters in upper case.
+
+# * Your result should look like this:
+
+# ```bash
+# First three characters: BER
+#```
+
+d = (text4[0:3])
+print(d.capitalize())
+
+# Task 4
+
+# Create the variable called ```text``` with the following content: 
+#  ```"Berlin is surrounded by the State of Brandenburg 
+# and contiguous with Potsdam, Brandenburg's capital" ```, 
+# then count how many times the letter  ```B ``` appears in the text.
+
+# * Your result should look like this:
+
+# ```bash
+# B appears:  3  times
+# ```
+
+text5 = """Berlin is surrounded by the State of Brandenburg
+ and contiguous with Potsdam, Brandenburg's capital"""
+
+f = text5.count("b")
+print("B appears: ", f)
+
+# Task 5
+
+# Create a variable called ```text``` to store the data: 
+# ```Berlin straddles the banks of the Spree, which flows into the Havel 
+# (a tributary of the Elbe) in the western borough of Spandau.``` .
+#  Your task is to print the last 10 characters of the ```text``` 
+# variable on screen.
+
+# * Your result should look like this:
+
+# ```bash
+# Last ten characters: f Spandau.
+# ```
+
+text6 = """Berlin straddles the banks of the Spree, which flows
+ into the Havel (a tributary of the Elbe) in the western borough of Spandau."""
+
+g = (text6[119:129])
+print("Last ten characters : ", g)
+
+# Task 6
+
+#Create a variable called ```text``` to store the data: 
+# ```---Python programming---``` . Your task is to remove the hyphen 
+# (```-```) character from the string.
+
+# * Your result should look like this:
+
+# ```bash
+# Python programming
+# ```
+
+text7 = "---Python programming---"
+
+h = text7.strip("-")
+print(h)
+
+# Task 7
+
+#Create two variables to store your first and your last name.
+#  Your task is to concatenate the two variables using the appropriate
+#  labels.
+
+# * You should provide a single line print statement.
+
+# * Your result should look like this:
+
+# ```bash
+# Firstname: Mary 
+# Lastname: Mat
+# ```
+
+firstname = "Mary"
+lastname = "mat"
+
+print("Firstname: ", firstname)
+print("Lastname: ", lastname)
