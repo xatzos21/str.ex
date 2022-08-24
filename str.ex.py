@@ -56,7 +56,7 @@ population =  "9000000"
 
 a = city.isalpha()
 print("City: London ", a)
-print("Population: " + population)
+print("Population: " + population) 
 
 
 # Task-4
