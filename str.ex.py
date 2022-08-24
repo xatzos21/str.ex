@@ -184,7 +184,7 @@ text5 = """Berlin is surrounded by the State of Brandenburg
  and contiguous with Potsdam, Brandenburg's capital"""
 
 f = text5.count("b")
-print("B appears: ", f)
+print("B appears: ", f, " times")
 
 # Task 5
 
